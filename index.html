@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aenima</title>
+  <!-- BOOTSTRAP 4 -->
+  <link rel="stylesheet" href="css/bootstrap-4.4.1/dist/css/bootstrap.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- navegacion -->
+  <nav class="navbar navbar-expand-lg fixed-top  navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="img/logo_01.svg"></img></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+      <a class="ml-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-close"></span>
+      </button>
+    </a>
+        <a class="nav-item nav-link active p-0" href="#">
+          HOME
+          <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link p-0" href="#tendencia">TENDENCIAS</a>
+        <a class="nav-item nav-link p-0" href="#blog">BLOG</a>
+      </div>
+    </div>
+  </nav>
+<!-- navegacion end -->
+  <!--Mask-->
+  <div id="intro" class="view">
+    <div class="container-fluid p-0 d-flex align-items-center h-100">
+      <div class="d-flex justify-content-center p-0 ml-10 mr-10">
+        <div class="pl-0 mr-auto box-text">
+          <!-- Heading -->
+          <h2 class="text-white title-page"><img src="iconos/ic_pin.svg" alt="ubicacion">AMERICA DEL SUR</h2>
+
+          <!-- Divider -->
+          <hr />
+
+          <!-- Description -->
+          <h5 class="text-white subtitle">Lugares maravillosos por America del Sur</h5>
+
+          <p class="text-white parrafo d-none d-md-block">Estos son algunos lugares que elijen la mayoría de los turistas que visitan
+            America del Sur.<span hidden >Montañas, playas y nieve, forman parte de los selectos.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="mensaje-aventura d-none d-md-block">
+      <span class="mensaje-title">Próxima aventura<img src="iconos/arrow.svg" alt="arrow"></span> <br/>
+      <span>Europa Meridional</span>
+      <p>Forman parte veinte países, ej. España, Francia, etc.</p>
+    </div>
+    <div class="nav-slider">
+      <span>01</span>
+    </div>
+  </div>
+  <hr class="hr-nav-slider"/>
+  <!--/.Mask-->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <span id="tendencia"></span>
+  <main class="mt-5">
+    <!-- cards -->
+    <div class="gray-background"></div>
+    <section>
+      <h2 class="font-weight-bold font-tendencia">TENDENCIAS</h2>
+      <div class="cards row-cols-1 row-cols-md-3">
+     
+          <div class="card">
+            <img src="img/card_01.png" class="card-img-top" alt="montañas y magia">
+            <div class="card-body">
+              <span class="new-card">Nuevo</span c>
+              <h5 class="card-title">Montaña y magia</h5>
+              <p class="card-text">Aqui la descripcion para <b>Montañas y magia</b>.</p>
+            </div>
+          </div>
+
+          <div class="card d-none d-md-block">
+            <img src="img/card_02.png" class="card-img-top" alt="playas y sol">
+            <div class="card-body">
+              <h5 class="card-title">Playas y sol</h5>
+              <p class="card-text">La descripcion de <b>Playas y sol</b>.</p>
+            </div>
+          </div>
+        
+        
+          <div class="card d-none d-md-block">
+            <img src="img/card_03.png" class="card-img-top" alt="nieve y aventura">
+            <div class="card-body">
+              <h5 class="card-title">Nieve y aventura</h5>
+              <p class="card-text">Contiene la informacion de <b>Nieve y aventura</b>.</p>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+    <!-- end cards -->
+
+    <!-- blog -->
+    <span id="blog"></span>
+    <section class="mx-xs-0 mx-sm-block blog">
+      <h2 class="title-blog">BLOG</h2>
+      <div class="row-md posts">
+        <div class="col-md-8  col-sm-12 last-posts">
+
+          <article>
+            <img src="img/articulo_big_01.png" alt="puente" class="img-zoom"> 
+            <span class="a-title">Ciudad</span>
+            <div class="a-content">
+              <h3>Artículo de puente</h3>
+              <p class="d-none d-md-block">Un puente es una construcción que permite salvar un accidente geográfico</p>
+              <span class="post-hrs"><img src="iconos/time.svg"> Hace 2h </span>
+            </div>
+          </article>
+
+          <article>
+            <img src="img/articulo_big_02.png" alt="bosque" class="img-zoom">
+            <span class="a-title">AVENTURA</span>
+            <div class="a-content">
+              <h3>Artículo de bosque</h3>
+              <p class="d-none d-md-block">Lugar poblado de árboles y arbustos.Área con una importante densidad de árboles.</p>
+              <span class="post-hrs"><img src="iconos/time.svg">Hace 15m</span>
+          </article>
+
+        </div>
+        <div class="col-md-4 previous-posts d-none d-md-block">
+          <article>
+            <img src="img/articulo_small_01.png" alt="elefante">
+            <h5>Artículo de elefante</h5>
+            <span class="post-hrs"><img src="iconos/time.svg">Hace 3h</span>
+          </article>
+
+          <article>
+            <img src="img/articulo_small_02.png" alt="loro">
+            <h5>Artículo de loro</h5>
+            <span class="post-hrs"><img src="iconos/time.svg">Hace 4h</span>
+          </article>
+
+          <article>
+            <img src="img/articulo_small_03.png" alt="caminos">
+            <h5>Artículo de camino</h5>
+            <span class="post-hrs"><img src="iconos/time.svg">Hace 8h</span>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- end blog -->
+  </main>
+  <!--Main layout-->
+  <!-- Footer -->
+  <footer class="page-footer font-small unique-color-dark bg-dark">
+    <!-- Social buttons -->
+    <div class="py-4 d-flex align-items-center">
+      <div class="text-left p-0 mb-1 mb-md-0">
+        <img class="mb-0" src="img/logo_02.svg">
+      </div>
+      <!--Grid column-->
+      <!--Grid column-->
+      <div class="ml-auto text-right p-0 mb-md-0">
+        <!--Instagram-->
+        <a class="ins-ic">
+          <img src="iconos/instagram.svg" alt="instagram">
+        </a>
+        <!--Facebook-->
+        <a class="fb-ic ml-0">
+          <img src="iconos/facebook.svg" alt="facebook">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="css/bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,483 @@
+@import url(../fonts/Montserrat/Montserrat.css);
+@import url(../fonts/OpenSans/OpenSans.css);
+@import url(../fonts/AcuminPro/AcuminPro.css);
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  padding-top: 60px;
+  scroll-behavior: smooth;
+}
+
+.view,
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+.view {
+  background-image: url(../img/Viajes_Hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* nav style */
+.navbar {
+  padding: 0 ;
+  padding-left: calc( 10% - 8px );
+  padding-right: calc( 10% - 16px );
+  height: 60px;
+}
+
+.nav-item {
+  letter-spacing: 0;
+  color: #2A3037;
+  font: 500 18px/13px "Montserrat";
+  margin: 0 16px 0 16px;
+}
+
+.itemMenu-color {
+  color: rgb(214, 218, 220);
+}
+
+
+/* nav style end */
+
+/* BOX OF AMERICA LATINA */
+.title-page {
+  font: 700 48px/42px "Montserrat";
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.title-page > img {
+  height: 34px;
+  margin-right: 18px;
+}
+
+hr {
+  border-top:2px solid #ffff;
+}
+
+.subtitle {
+  font: 700 24px/34px "Montserrat";
+}
+
+.parrafo {
+  font: 400 16px/26px "Montserrat";
+}
+
+.ml-10 {
+  margin-left:10%;
+}
+
+.mr-10{
+  margin-right: 10%;
+}
+
+
+.box-text {
+  padding-right: 0;
+  margin-right:0;
+  max-width: 539px;
+}
+
+/* END BOX OF AMERICA LATINA */
+
+/* msj aventura */
+.mensaje-aventura {
+  position:absolute;
+  color:white;
+  width: 260px;
+  right: 10%;
+  bottom:70px;
+  background: rgba(42, 48, 55, 0.5);
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  padding: 30px;
+}
+
+.mensaje-title {
+  font: 700 16px/20px "Montserrat";
+  color: rgba(250, 105, 128, 1);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  margin-right: 0;
+}
+
+.mensaje-title > img {
+  margin-left:10px;
+  padding-bottom: 3px;
+  width: 7px;
+}
+
+.mensaje-title ~ span {
+  font: 600 16px/20px "Montserrat";
+  margin-bottom:11px;
+  
+}
+
+.mensaje-aventura > p {
+  font: 400 14px/22px "Montserrat";
+  color:rgba(255,255, 255,1);
+  margin-bottom: 0;
+}
+/* msj aventura end */
+
+/* nav-slider */
+ .nav-slider {
+  left:10%;
+  position: absolute;
+  bottom:40px;
+  height: 60px;
+  width: 60px;
+  border: solid rgba(160, 160, 160,0.7) 8px;
+  border-radius: 50%;
+}
+
+.nav-slider > span {
+  display: block;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  font: 700 16px/20px "Montserrat";
+}
+
+.hr-nav-slider {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: calc( 10% + 8px);
+  height: 5px;
+  border: none;
+  background-color:#FA6980;
+}
+
+/* nav-slider end */
+section {
+  margin:0 10% 0 10%;
+  margin-top: 78px;
+}
+
+main {
+  position: relative;
+}
+
+/* SECCTION TENDENCIA */
+.gray-background {
+  position: absolute;
+  background: #EBEBEB 0% 0% no-repeat padding-box;
+  z-index: -100;
+  width: 100%;
+  height: 700px;
+  margin-top: -78px;
+}
+
+.font-tendencia {
+  font: 700 24px/20px "Montserrat";
+  padding:0;
+  color:#2A3037;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font: 700 16px/20px "Montserrat";
+  color: #2A3037;
+  margin-bottom: 0;
+
+}
+
+.card-text {
+  font-family:"Open Sans";
+  font: 400 13px/23px "Open Sans";
+  color: #7A838D;
+  height: 38px;
+  margin-top: 10px;
+}
+
+.card-body {
+  position: relative;
+  padding: 0;
+  margin:30px 30px 30px 30px;
+}
+
+.new-card {
+  position: absolute;
+  top: -48px;
+  left: 0px;
+  text-transform: uppercase;
+  font: 700 16px/13px Montserrat;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  background: #FA6980 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+
+
+.card {
+  margin: 0 8px 0 8px;
+  border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  height:100%;
+}
+
+.cards {
+  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* margin-right: 30px; */
+  margin-left: -10px;
+  flex-wrap: nowrap;
+
+}
+/* SECCTION TENDENCIA END */
+
+/* SECTION BLOG */
+.title-blog {
+  margin-bottom: 0;
+  font: 700 24px/20px "Montserrat";
+}
+article > img {
+  width: 100%;
+}
+
+.posts > div {
+  padding: 0 8px 0 8px;
+}
+
+article {
+  padding: 0;
+  position: relative;
+  margin-top: 40px;
+}
+
+.a-title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font: 700 16px/20px "Montserrat";
+}
+
+.a-content {
+  position: absolute;
+  width: calc(100% - 90px);
+  margin-right:40px;
+  bottom: 40px;
+  left: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.a-content > h3 {
+  font: 700 24px/34px "Montserrat";
+  opacity: 1;
+  margin:0;
+}
+
+.a-content > p {
+  font: 600 16px/26px "Montserrat";
+  margin:0;
+  height: 26px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.a-content > span {
+  font: 500 13px/26px "Montserrat";
+  color: #CBD0D3;
+  margin-top:10px;
+  display: inline-block;
+}
+
+article > h5 {
+  color: #202124;
+  font: 700 16px/26px "Acumin Pro";
+  margin-top: 16px;
+  margin-bottom: -3px;
+}
+
+.previous-posts > article {
+  margin-bottom: -4px;
+}
+
+.post-hrs {
+  font: 400 13px/26px "Montserrat";
+  color:#CBD0D3;
+}
+
+.post-hrs > img {
+  margin-right: 5px;
+}
+/* SECCTION BLOG END */
+
+/* FOOTER */
+footer {
+  padding:0;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.box-social {
+  width: 52px;
+}
+
+footer > div {
+  padding: 0;
+  margin: 0 !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  height:90px;
+}
+
+.fb-ic > img {
+  margin-left:15px;
+}
+/* FOOTER  END */
+
+.navbar-light .navbar-toggler {
+  border:none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+@media (max-width:767px){
+
+  .title-page{
+    font: 700 24px/42px "Montserrat";
+    margin-bottom: 20px;
+  }
+
+  .title-page > img {
+    width: 16px;
+    height:17px;
+    margin-right: 9px;
+  }
+
+  .font-tendencia {
+    margin-bottom: 28px;
+  }
+
+  .subtitle{
+    font: 700 20px/34px "Montserrat";
+  }
+
+  .blog{
+    margin-left:0 !important;
+    margin-right:0 !important;
+  }
+
+  .title-blog{
+    margin: 0 10% 0 10%;
+  }
+
+  .img-zoom {
+    height:430px;
+    width:100%;
+    object-fit: cover;
+  }
+
+  .posts > div{
+    margin-top: -10px;
+    padding: 0 !important;
+  }
+
+  .a-content > h3{
+    font: 700 22px/34px "Montserrat" !important;
+  }
+
+  .card-text {
+    font: 400 13px/23px "Open Sans";
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .new-card {
+    font: 700 12px/10px Montserrat;
+    top: -45px;
+  }
+
+}
+
+@media (min-width:768px){
+  .row-md {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+      background-color: white;
+      position: fixed;
+      top: 0px;
+      padding-right: 40px;
+      height: 100vh !important ;
+      padding-left: 40px;
+      padding-bottom: 15px;
+      width: 217px;
+      transition: all 1s ease;
+      display: block;
+      z-index: 100;
+      opacity: 0;
+  }
+
+  .navbar-collapse.collapsing {
+      transition: all 0s ;
+      opacity: 0;
+      display: block;
+  }
+  .navbar-collapse.show {
+    height: 100vh !important ;
+    left: calc(100% - 217px);
+    opacity: 1;
+  }
+
+  .navbar-collapse > .navbar-nav > a > button{
+    margin-top: 9px;
+  }
+  
+  .navbar-toggler-close {
+    background-image: url(../iconos/No.svg) !important;
+    display: inline-block;
+    padding:0;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+  
+  .navbar-collapse.show > .navbar-nav > a.active {
+    margin-top: 34px;
+  }
+  .navbar-collapse.show > .navbar-nav >.nav-item {
+    margin: 8px 0 8px 0;
+    font: 500 18px/13px "Montserrat";
+    letter-spacing: 0;
+    color: #2A3037;
+  }
+
+}

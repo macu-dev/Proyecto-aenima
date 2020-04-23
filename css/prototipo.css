@@ -1,0 +1,46 @@
+@import url(../fonts/khand/khand.css);
+
+*{
+  box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100%;
+  height:100%;
+}
+
+body{
+  background-color:rgba(66, 66, 66, 1);
+}
+
+/* logo */
+
+
+.logo > img {
+  width:150px;
+}
+
+.logo > span{
+  margin-top:40px;
+  display:block;
+  font: 200 36px/34px "khand";
+  color: rgba(255, 255, 255, 1);
+  margin-bottom:40px;
+}
+
+.btn{
+  border: 1px solid rgba(235, 224, 0, 1);
+  border-radius:0;
+  color:rgba(255, 255, 255, 1);
+  font: 500 20px"khand";
+  width: 141px;
+  margin: 0 9px 10px 9px;
+}
+.btn.btn-outline-warning:focus{
+  outline:none;
+  box-shadow: none;
+}
+
+
+/* end logo */
